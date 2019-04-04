@@ -1,0 +1,52 @@
+@import "colors";
+
+.todos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  width: 50%;
+
+  #todo-input {
+    margin: 20px auto;
+    padding: 5px;
+    outline: 0;
+    width: 100%;
+  }
+
+  button {
+    background: $blue;
+    border: none;
+    color: $black;
+    cursor: pointer;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .todo-list {
+    margin: 20px 0;
+    width: 100%;
+
+    .todo {
+      align-items: center;
+      background: $blue;
+      display: flex;
+      margin: 12px 0;
+      width: 100%;
+
+      .text {
+        color: $black;
+        font-size: 18px;
+        padding: 12px;
+      }
+
+      button {
+        background: $red;
+        color: #fff;
+        margin: 0 12px 0 auto;
+        width: auto;
+      }
+    }
+  }
+}

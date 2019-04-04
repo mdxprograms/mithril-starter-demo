@@ -9,11 +9,7 @@ const Nav = {
         { href: "/hn", oncreate: m.route.link },
         "HN - Top 10 Stories"
       ),
-      m(
-        "a.nav-item",
-        { href: "/got", oncreate: m.route.link },
-        "GoT Characters"
-      )
+      m("a.nav-item", { href: "/todos", oncreate: m.route.link }, "Todos")
     ])
 };
 

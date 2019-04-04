@@ -1,6 +1,7 @@
 import Layout from "./views/Layout";
 import HomeView from "./views/HomeView";
 import HNView from "./views/HN";
+import TodosView from "./views/TodosView";
 
 const routes = {
   "/": {
@@ -8,6 +9,9 @@ const routes = {
   },
   "/hn": {
     render: () => m(Layout, m(HNView))
+  },
+  "/todos": {
+    render: () => m(Layout, m(TodosView))
   }
 };
 
