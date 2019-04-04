@@ -1,5 +1,4 @@
 import APOD from "../models/APOD";
-import "../styles/apod.scss";
 
 const HomeView = {
   oninit: APOD.getApod,

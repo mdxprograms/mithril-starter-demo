@@ -1,4 +1,3 @@
-// views
 import Layout from "./views/Layout";
 import HomeView from "./views/HomeView";
 import HNView from "./views/HN";

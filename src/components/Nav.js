@@ -8,6 +8,11 @@ const Nav = {
         "a.nav-item",
         { href: "/hn", oncreate: m.route.link },
         "HN - Top 10 Stories"
+      ),
+      m(
+        "a.nav-item",
+        { href: "/got", oncreate: m.route.link },
+        "GoT Characters"
       )
     ])
 };
